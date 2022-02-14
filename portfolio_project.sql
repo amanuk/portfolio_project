@@ -10,7 +10,7 @@ where continent is not null
 order by 1,2
 
 
--- Tableau Table 
+-- Tableau Table 2
 
 Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
 From Portfolio_Project..Covid_Deaths$
