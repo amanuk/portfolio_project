@@ -1,4 +1,11 @@
 
+-- Tableau Public Dashboard for code below
+-- https://public.tableau.com/app/profile/alex.manukyan/viz/PortfolioDashboard_16447917380450/Dashboard1?publish=yes
+
+
+
+
+
 -- Tableau Table 1
 
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast
